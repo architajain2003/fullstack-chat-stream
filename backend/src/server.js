@@ -41,6 +41,10 @@ app.get("/", (req, res) => {
   res.send("FullStack Chat Stream backend is live 🎉");
 });
 
+app.get("/api", (req, res) => {
+  res.send("✅ API is working!");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   connectDB();
