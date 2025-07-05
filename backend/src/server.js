@@ -38,7 +38,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("/", (req, res) => {
-  res.send("StreamTalks backend is live 🎉");
+  res.send("FullStack Chat Stream backend is live 🎉");
 });
 
 app.listen(PORT, () => {
