@@ -1,55 +1,26 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+# Streamify
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+**Streamify** is a real-time fullstack chat and video calling app I built to explore communication tech using scalable tools. It supports messaging, 1-on-1 and group video calls, reactions, screen sharing, JWT-based authentication, and more — all wrapped in a clean, theme-rich interface.
 
 ---
 
-## 🧪 .env Setup
+## 🔧 Tech Stack
 
-### Backend (`/backend`)
-
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
-
-### Frontend (`/frontend`)
-
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+- **Frontend**: React + Vite, TailwindCSS, Zustand, TanStack Query
+- **Backend**: Node.js, Express.js, MongoDB, JWT
+- **Real-time & Video**: Stream API (Chat), WebRTC (Calls)
+- **Extras**: Protected routes, screen recording, responsive design
 
 ---
 
-## 🔧 Run the Backend
+## 🔍 Features
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+- 🌐 Real-time messaging with typing indicators and reactions  
+- 📹 1-on-1 and group video calls with screen sharing & recording  
+- 🎨 32 unique UI themes for personalization  
+- 🔐 Auth system with JWT and protected routes  
+- 🧠 Global state with Zustand + Server data caching via TanStack Query  
+- 💡 Proper error handling on both frontend and backend  
+- 🚀 Free deployment-ready setup
 
-## 💻 Run the Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
+---
