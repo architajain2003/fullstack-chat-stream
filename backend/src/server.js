@@ -50,7 +50,8 @@ app.get("/api", (req, res) => {
   res.send("✅ API is working!");
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-  connectDB();
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
 });
